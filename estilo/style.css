@@ -1,0 +1,44 @@
+body {
+	background-color: #EEE;
+	text-align: center;
+	margin:0;
+	padding: 0;
+}
+#counter {
+	font-family: Ebrima, "sans-serif";
+	font-size: 300px;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 30px;
+}
+button {
+	background-color: #CCC;
+	color: #333;
+	border: solid 1px #666;
+	border-radius: 3px;
+	padding: 5px 15px;
+	outline: none;
+	font-size: 20px;
+}
+button:hover {
+	background-color: #EEE;
+	cursor: pointer;
+}
+button:active {
+	background-color: #DDD;
+}
+button img {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	margin-bottom: -3px;
+}
+select {
+	text-align: center;
+	font-size: 18px;
+	border: solid 1px #999;
+	border-radius: 2px;
+	outline: none;
+	color: #666;
+	padding: 5px;
+}
